@@ -48,6 +48,10 @@ h2 {
   font-family: "Playfair Display", Robot, sans-serif;
 }
 
+.lista-quiz li:hover {
+  cursor: pointer;
+}
+
 #explicacao {
   min-height: 58px;
 }

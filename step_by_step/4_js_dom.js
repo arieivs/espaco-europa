@@ -1,6 +1,6 @@
 // Adicionar classes resposta-certa/errada no ficheiro html
 // Adicionar parágrafo com id explicacao no ficheiro html
-// Estilizar parágrafo para que o footer não se mexa para baixo quando a explicação aparece
+// Estilizar elementos li e parágrafo da explicacção
 
 const explicacao = document.getElementById('explicacao')
 const respostasCertas = document.querySelectorAll(".resposta-certa");
