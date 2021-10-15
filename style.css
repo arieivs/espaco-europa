@@ -1,10 +1,11 @@
 /*Adicionar font awesome link ao ficheiro html*/
 /*Substituir "LinkedIn" e "Github" pelos respectivos icons*/
 /*Adicionar Google fonts link ao ficheiro html*/
+/*Adicionar classes*/
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 header {
@@ -14,6 +15,32 @@ header {
   /*image source: https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=908&q=80*/
   background-size: cover;
   color: white;
+}
+
+h1 {
+  font-family: "Playfair Display", Robot, sans-serif;
+  font-size: 48px;
+}
+
+.slogan {
+  font-size: 20px;
+}
+
+.botao {
+  display: inline-block;
+  margin: 16px;
+  padding: 16px 20px;
+  background-color: rgb(200, 200, 200);
+  border-radius: 26px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background-color: white;
+  color: black;
 }
 
 div {
