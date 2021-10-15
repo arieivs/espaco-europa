@@ -27,10 +27,10 @@ footer {
   color: rgb(200, 200, 200);
 }
 
-footer a {
+a {
   color: rgb(200, 200, 200);
 }
 
-footer a:hover {
+a:hover {
   color: white;
 }

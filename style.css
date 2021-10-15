@@ -1,4 +1,6 @@
-/*Adicionar <link rel="stylesheet" type="text/css" href="style.css"> ao ficheiro html*/
+/*Adicionar font awesome link ao ficheiro html*/
+/*Substituir "LinkedIn" e "Github" pelos respectivos icons*/
+/*Adicionar Google fonts link ao ficheiro html*/
 
 body {
   margin: 0;
@@ -27,10 +29,10 @@ footer {
   color: rgb(200, 200, 200);
 }
 
-footer a {
+a {
   color: rgb(200, 200, 200);
 }
 
-footer a:hover {
+a:hover {
   color: white;
 }
