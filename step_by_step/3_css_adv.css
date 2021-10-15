@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
+  line-height: 1.8em;
 }
 
 header {
@@ -30,7 +31,7 @@ h1 {
 .botao {
   display: inline-block;
   margin: 16px;
-  padding: 16px 20px;
+  padding: 10px 20px;
   background-color: rgb(200, 200, 200);
   border-radius: 26px;
   color: black;
@@ -51,10 +52,6 @@ div {
 
 h2 {
   font-family: "Playfair Display", Robot, sans-serif;
-}
-
-.lista-quiz li {
-  line-height: 1.8em;
 }
 
 footer {
