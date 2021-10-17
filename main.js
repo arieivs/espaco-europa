@@ -1,15 +1,21 @@
 const explicacao = document.getElementById('explicacao')
-const respostasCertas = document.querySelectorAll(".resposta-certa");
-const respostasErradas = document.querySelectorAll(".resposta-errada");
+const respostaCerta = document.getElementById('resposta-certa');
+const respostaHTML = document.getElementById('resposta-html');
+const respostaCSS = document.getElementById('resposta-css');
+const respostaRuby = document.getElementById('resposta-ruby');
 
-respostasCertas.forEach(resposta => {
-  resposta.addEventListener("click", event => {
-    explicacao.innerHTML = "<strong>Correcto!</strong> 🥳 42 (ou 101010 em base binária) é a resposta dada em <em>The Hitchhiker's Guide to the Galaxy</em> de Douglas Adams. <a href='https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#The_Answer_to_the_Ultimate_Question_of_Life,_the_Universe,_and_Everything_is_42' target='_blank'>Descobre mais aqui</a>.";
-  })
+respostaCerta.addEventListener("click", event => {
+  explicacao.innerHTML = "<strong>Correcto!</strong> 🥳";
 })
 
-respostasErradas.forEach(resposta => {
-  resposta.addEventListener("click", event => {
-    explicacao.innerHTML = "<strong>Ops, errado...</strong> 😬 <a href='https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#The_Answer_to_the_Ultimate_Question_of_Life,_the_Universe,_and_Everything_is_42' target='_blank'>Procura uma pista aqui</a> e tenta outra vez.";
-  })
+respostaHTML.addEventListener("click", event => {
+  explicacao.innerHTML = "<strong>Ops, errado...</strong> 😬 HTML permite-nos dar estrutura e conteúdo à nossa página. Tenta outra vez!";
+})
+
+respostaCSS.addEventListener("click", event => {
+  explicacao.innerHTML = "<strong>Ops, errado...</strong> 😬 CSS permite-nos dar estilo à nossa página. Tenta outra vez!";
+})
+
+respostaRuby.addEventListener("click", event => {
+  explicacao.innerHTML = "<strong>Ops, errado...</strong> 😬 Ruby é uma das várias linguagens que pode ser utilizada para backend. Tenta outra vez!";
 })
