@@ -8,6 +8,8 @@ body {
 h1 {
   font-family: Lobster, Robot, sans-serif;
   font-size: 50px;
+  color: #164455;
+  text-shadow: 2px 2px 4px #ffefe8;
 }
 
 h2 {
@@ -34,16 +36,16 @@ header {
   display: inline-block;
   margin: 16px;
   padding: 10px 20px;
-  background-color: rgb(200, 200, 200);
+  background-color: #164455;
   border-radius: 26px;
-  color: black;
+  color: #ffefe8;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .botao:hover {
-  background-color: white;
+  background-color: #2b677c;
 }
 
 /*Componente Quiz*/
@@ -65,8 +67,8 @@ div {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: black;
-  color: rgb(200, 200, 200);
+  background-color: #2b677c;
+  color: #EFBBA1;
 }
 
 .lista-links {
@@ -80,10 +82,10 @@ footer {
 }
 
 .lista-links a {
-  color: rgb(200, 200, 200);
+  color: #EFBBA1;
   font-size: 40px;
 }
 
 .lista-links a:hover {
-  color: white;
+  color: #ffefe8;
 }
