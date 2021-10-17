@@ -2,31 +2,31 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
   line-height: 1.8em;
-  background-color: rgb(240, 240, 240);
 }
 
 /*Tipografia*/
 h1 {
-  font-family: "Rampart One", Robot, sans-serif;
+  font-family: Lobster, Robot, sans-serif;
   font-size: 50px;
 }
 
 h2 {
-  font-family: "Playfair Display", Robot, sans-serif;
+  font-family: Montserrat, Robot, sans-serif;
 }
 
 /*Componente Header/Banner*/
 header {
   text-align: center;
   padding: 120px 10px;
-  background-image: url(imagens/alexander-andrews-nebula.jpg);
+  background-image: url(imagens/lachlan-dempsey-surfers.jpg);
   background-size: cover;
-  color: white;
+  background-position: right;
+  color: black;
 }
 
 .slogan {
   font-size: 20px;
-  color: rgb(200, 200, 200);
+  color: black;
 }
 
 /*Componente Botão*/
@@ -48,7 +48,7 @@ header {
 
 /*Componente Quiz*/
 div {
-  max-width: 700px;
+  max-width: 600px;
   margin: 40px auto;
   padding: 10px;
 }

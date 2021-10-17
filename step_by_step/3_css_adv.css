@@ -12,15 +12,16 @@ body {
 header {
   text-align: center;
   padding: 120px 10px;
-  background-image: url(imagens/alexander-andrews-nebula.jpg);
-  /*image source: https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=908&q=80*/
+  background-image: url(imagens/lachlan-dempsey-surfers.jpg);
+  /*image source: https://images.unsplash.com/photo-1503022932596-500eb8cca2d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80*/
   background-size: cover;
+  background-position: right;
   color: white;
 }
 
 h1 {
-  font-family: "Playfair Display", Robot, sans-serif;
-  font-size: 48px;
+  font-family: Lobster, Robot, sans-serif;
+  font-size: 50px;
 }
 
 .slogan {
@@ -45,13 +46,13 @@ h1 {
 }
 
 div {
-  max-width: 700px;
+  max-width: 600px;
   margin: 40px auto;
   padding: 10px;
 }
 
 h2 {
-  font-family: "Playfair Display", Robot, sans-serif;
+  font-family: Montserrat, Robot, sans-serif;
 }
 
 footer {
