@@ -12,7 +12,7 @@ header {
   background-image: url(imagens/lachlan-dempsey-surfers.jpg);
   /*image source: https://images.unsplash.com/photo-1503022932596-500eb8cca2d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80*/
   background-size: cover;
-  background-position: right;
+  background-position: center;
   color: black;
 }
 
