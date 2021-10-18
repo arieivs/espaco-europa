@@ -2,31 +2,34 @@ body {
   margin: 0;
   font-family: Roboto, sans-serif;
   line-height: 1.8em;
-  background-color: rgb(240, 240, 240);
 }
 
 /*Tipografia*/
 h1 {
-  font-family: "Rampart One", Robot, sans-serif;
+  font-family: Lobster, Robot, sans-serif;
   font-size: 50px;
+  color: #164455;
+  text-shadow: 2px 2px 4px #ffefe8;
 }
 
 h2 {
-  font-family: "Playfair Display", Robot, sans-serif;
+  font-family: Montserrat, Robot, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /*Componente Header/Banner*/
 header {
   text-align: center;
   padding: 120px 10px;
-  background-image: url(imagens/alexander-andrews-nebula.jpg);
+  background-image: url(imagens/lachlan-dempsey-surfers.jpg);
   background-size: cover;
-  color: white;
+  background-position: center;
+  color: black;
 }
 
 .slogan {
   font-size: 20px;
-  color: rgb(200, 200, 200);
 }
 
 /*Componente Botão*/
@@ -34,21 +37,21 @@ header {
   display: inline-block;
   margin: 16px;
   padding: 10px 20px;
-  background-color: rgb(200, 200, 200);
+  background-color: #164455;
   border-radius: 26px;
-  color: black;
+  color: #ffefe8;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .botao:hover {
-  background-color: white;
+  background-color: #2b677c;
 }
 
 /*Componente Quiz*/
 div {
-  max-width: 700px;
+  max-width: 600px;
   margin: 40px auto;
   padding: 10px;
 }
@@ -64,14 +67,15 @@ div {
 /*Componente Footer*/
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: black;
-  color: rgb(200, 200, 200);
+  padding: 30px 10px;
+  background-color: #2b677c;
+  color: #EFBBA1;
 }
 
 .lista-links {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .lista-links li {
@@ -80,10 +84,10 @@ footer {
 }
 
 .lista-links a {
-  color: rgb(200, 200, 200);
+  color: #EFBBA1;
   font-size: 40px;
 }
 
 .lista-links a:hover {
-  color: white;
+  color: #ffefe8;
 }

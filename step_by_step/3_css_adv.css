@@ -1,7 +1,14 @@
 /*Adicionar classes*/
 /*Adicionar Google fonts link ao ficheiro html*/
+/*Adicionar Bootstrap link ao ficheiro html*/
 /*Adicionar font awesome link ao ficheiro html*/
 /*Substituir "LinkedIn" e "Github" pelos respectivos icons*/
+
+/*Cores:
+azul-turquesa escuro: #164455 -> colorpicker banner mar
+azul-turquesa claro: #2b677c -> versão aclarada do anterior
+cor-de-pele: #EFBBA1 -> colorpicker banner areia
+cor-de-pele claro: #ffefe8 -> versão aclarada do anterior*/
 
 body {
   margin: 0;
@@ -9,61 +16,78 @@ body {
   line-height: 1.8em;
 }
 
+/*Tipografia*/
+h1 {
+  font-family: Lobster, Robot, sans-serif;
+  font-size: 50px;
+  color: #164455;
+  text-shadow: 2px 2px 4px #ffefe8;
+}
+
+h2 {
+  font-family: Montserrat, Robot, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*Componente Header/Banner*/
 header {
   text-align: center;
   padding: 120px 10px;
-  background-image: url(imagens/alexander-andrews-nebula.jpg);
-  /*image source: https://images.unsplash.com/photo-1516331138075-f3adc1e149cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=908&q=80*/
+  background-image: url(imagens/lachlan-dempsey-surfers.jpg);
   background-size: cover;
-  color: white;
-}
-
-h1 {
-  font-family: "Playfair Display", Robot, sans-serif;
-  font-size: 48px;
+  background-position: center;
+  color: black;
 }
 
 .slogan {
   font-size: 20px;
-  color: rgb(200, 200, 200);
 }
 
+/*Componente Botão*/
 .botao {
   display: inline-block;
   margin: 16px;
   padding: 10px 20px;
-  background-color: rgb(200, 200, 200);
+  background-color: #164455;
   border-radius: 26px;
-  color: black;
+  color: #ffefe8;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .botao:hover {
-  background-color: white;
+  background-color: #2b677c;
 }
 
+/*Componente Quiz*/
 div {
-  max-width: 700px;
+  max-width: 600px;
   margin: 40px auto;
   padding: 10px;
 }
 
-h2 {
-  font-family: "Playfair Display", Robot, sans-serif;
+.lista-quiz li:hover {
+  cursor: pointer;
 }
 
+#explicacao {
+  min-height: 58px;
+}
+
+/*Componente Footer*/
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: black;
-  color: rgb(200, 200, 200);
+  padding: 30px 10px;
+  background-color: #2b677c;
+  color: #EFBBA1;
 }
 
 .lista-links {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .lista-links li {
@@ -72,10 +96,10 @@ footer {
 }
 
 .lista-links a {
-  color: rgb(200, 200, 200);
+  color: #EFBBA1;
   font-size: 40px;
 }
 
 .lista-links a:hover {
-  color: white;
+  color: #ffefe8;
 }
