@@ -60,6 +60,7 @@ header {
 
 .botao:hover {
   background-color: #2b677c;
+  color: #ffefe8;
 }
 
 /*Componente Quiz*/
